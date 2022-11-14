@@ -1,0 +1,13 @@
+.contenedor{
+    height: 15vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contenedor ul li{
+    list-style-type: none;
+}

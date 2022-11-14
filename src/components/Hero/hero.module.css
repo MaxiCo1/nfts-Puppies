@@ -1,0 +1,40 @@
+.btn{
+    background-color: blue;
+    border-radius: 60px;
+    border:0;
+    color:white;
+    padding: 15px 30px;
+    width: 25%;
+    font-weight: bold;
+}
+.contenedor{
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 80vh;
+    background-color:#00001a;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor h1{
+    font-size: 60px;
+}
+.contenedor h2{
+    font-size: 38px;
+    width: 60%;
+    font-weight: normal;
+}
+.contenedor p{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.contenedor  div{
+    width: 60%;
+}
+.contenedor img{
+    width: 400px;
+    border-radius: 20px;
+
+}

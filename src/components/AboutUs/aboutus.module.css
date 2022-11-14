@@ -1,0 +1,26 @@
+.contenedor{
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: center;
+    background-color: #00001a;
+    color: white;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+.contenedor h1{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    font-size: 36px;
+}
+.contenedor img{
+    width: 400px;
+}
+.contenedor p{
+    width: 50%;
+    margin-top: 3em;
+    font-size: 20px;
+
+}

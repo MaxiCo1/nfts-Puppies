@@ -1,0 +1,19 @@
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 20vh;
+
+}
+.contenedor ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+.contenedor ul li{
+    padding: 1em;
+}
