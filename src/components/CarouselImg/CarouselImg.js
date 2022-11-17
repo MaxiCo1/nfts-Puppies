@@ -5,7 +5,7 @@ const CarouselImg = ({ src, alt }) => {
   return (
     <div className={`${styles["image"]}`}>
       <img src={src} alt={alt} />
-      <h3>{alt}</h3>
+      <p>{alt}</p>
     </div>
   );
 };

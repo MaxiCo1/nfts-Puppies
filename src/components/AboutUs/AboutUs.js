@@ -4,7 +4,7 @@ import teamImg from "../../assets/aboutUsimg.png";
 
 const AboutUs = () => {
   return (
-    <div className={styles["contenedor"]}>
+    <div className={styles["contenedor"]} id="aboutUs">
       <h1>About Us</h1>
       <img src={teamImg} alt=""></img>
       <p>

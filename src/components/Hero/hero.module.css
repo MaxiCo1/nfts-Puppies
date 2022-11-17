@@ -4,37 +4,53 @@
     border:0;
     color:white;
     padding: 15px 30px;
-    width: 25%;
     font-weight: bold;
+    margin:3em
+
 }
 .contenedor{
-    padding-left: 100px;
-    padding-right: 100px;
-    height: 80vh;
-    background-color:#00001a;
-    color: white;
+  background-image: url("../../assets/fondo_hero.webp") ; 
+  padding-left: 100px;
+  padding-right: 100px;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.contenedor-hero{    
+    /*background-color:#00001a;*/
+    color: black;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    width: 75%;
+    margin: 0 auto;
+    height: 80%;
+
 }
-.contenedor h1{
-    font-size: 60px;
+.titulo{
+    width: 1000px!important;
 }
 .contenedor h2{
-    font-size: 38px;
-    width: 60%;
+    font-size: 42px;
     font-weight: normal;
+    margin-top: 0px;
 }
 .contenedor p{
-    font-size: 20px;
+    font-size: 36px;
     font-weight: bold;
 
 }
-.contenedor  div{
-    width: 60%;
+.contenedor-hero div{
+    display: flex; 
+    flex-direction: column;
 }
-.contenedor img{
-    width: 400px;
+
+
+.contenedor-texto img{
+
     border-radius: 20px;
 
 }

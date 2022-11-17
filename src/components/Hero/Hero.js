@@ -1,19 +1,23 @@
-import React from 'react'
-import styles from './hero.module.css'
-import perritoHero from '../../assets/perritoHero.png'
+import React from "react";
+import Navbar from "../Navbar/Navbar";
+import styles from "./hero.module.css";
+import perritoHero from "../../assets/nft_hero.png";
+import title_Hero from "../../assets/hero-titulo.png";
 
 const hero = () => {
   return (
     <div className={styles["contenedor"]}>
-      <div>
-        <h1>Welcome to the Dog Park</h1>
+      <Navbar />
+      <div className={styles["contenedor-hero"]}>
+        <img src={title_Hero} alt="" className={styles["titulo"]} />
         <h2>Discover and collect Doggies NFTs artwork</h2>
-        <p>267/1000 minted</p>
-        <button className={styles["btn"]}>Mint now</button>
-      </div>
-        <img src={perritoHero} alt=''></img>
-    </div>
-  )
-}
+        <div>
+          <button className={styles["btn"]}>Mint now</button>
 
-export default hero
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default hero;

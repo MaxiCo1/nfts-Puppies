@@ -29,7 +29,7 @@ const data = [
 
 const Collection = () => {
   return (
-    <div className={styles["contenedor"]}>
+    <div className={styles["contenedor"]} id="collection">
       <h1>Collection</h1>
       <Marquee gradient={false}>
         {data.map((item) => {

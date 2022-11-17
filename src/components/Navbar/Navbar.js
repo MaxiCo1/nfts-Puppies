@@ -1,6 +1,7 @@
 import React from "react";
 import WalletButton from "../WalletButton/WalletButton";
 import styles from "./navbar.module.css";
+//import logo from "../../assets/logo.png";
 
 const Navbar = () => {
   return (
@@ -8,19 +9,16 @@ const Navbar = () => {
       <h1>Doggies</h1>
       <ul>
         <li>
-          <a>About Us</a>
+          <a href="#aboutUs">About Us</a>
         </li>
         <li>
-          <a>Collection</a>
+          <a href="#collection">Collection</a>
         </li>
         <li>
-          <a>Mint</a>
+          <a href="#mint">Mint</a>
         </li>
         <li>
-          <a>Roadmap</a>
-        </li>
-        <li>
-          <a>FAQ</a>
+          <a href="#FAQ">FAQ</a>
         </li>
       </ul>
       <WalletButton />
